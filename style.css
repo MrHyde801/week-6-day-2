@@ -1,0 +1,40 @@
+a, body, h1, h2, h3, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgrey;
+  }
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#BigContainer {
+    width: 600px;
+    height: 600px;
+    display:flex;
+    margin: 100px;
+    flex-flow: column wrap;
+}
+
+.box1 , .box2, .box3, .box4, .box5, .box6, .box7, .box8,
+.box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16   {
+    background: black;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px;
+}
+
+.clicked {
+    background-color: grey;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px;
+}
